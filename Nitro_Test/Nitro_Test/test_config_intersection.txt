@@ -1,0 +1,4 @@
+4_identical_rects.json 4 11
+5_identical_rects.json 5 26
+11_identical_rects.json 10 1013
+example.json 4 7

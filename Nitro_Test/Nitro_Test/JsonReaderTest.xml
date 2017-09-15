@@ -1,0 +1,8 @@
+Running 1 test case...
+Entering test module "JsonReaderTest"
+c:\users\ozgur\source\repos\nitro_test\nitro_test\unittest.cpp(27): Entering test suite "JsonReaderTest"
+c:\users\ozgur\source\repos\nitro_test\nitro_test\unittest.cpp(29): Entering test case "test_size"
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(39): info: check vectorSize == size has passed
+c:\users\ozgur\source\repos\nitro_test\nitro_test\unittest.cpp(29): Leaving test case "test_size"; testing time: 1006999us
+c:\users\ozgur\source\repos\nitro_test\nitro_test\unittest.cpp(27): Leaving test suite "JsonReaderTest"; testing time: 1006999us
+Leaving test module "JsonReaderTest"; testing time: 1008999us

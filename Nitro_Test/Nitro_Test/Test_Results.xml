@@ -1,0 +1,47 @@
+Running 2 test cases...
+Entering test module "JsonReaderTest"
+c:\users\ozgur\source\repos\nitro_test\nitro_test\unittest.cpp(37): Entering test suite "NitroTest"
+c:\users\ozgur\source\repos\nitro_test\nitro_test\unittest.cpp(39): Entering test case "IntersectionTest"
+Checking size of valid rectangle array from file 4_identical_rects.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(62): info: check 'Expected size is 4' has passed
+Checking intersections from file 4_identical_rects.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(69): info: check 'Expected number of intersections is 11' has passed
+Checking size of valid rectangle array from file 5_identical_rects.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(62): info: check 'Expected size is 5' has passed
+Checking intersections from file 5_identical_rects.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(69): info: check 'Expected number of intersections is 26' has passed
+Checking size of valid rectangle array from file 11_identical_rects.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(62): info: check 'Expected size is 10' has passed
+Checking intersections from file 11_identical_rects.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(69): info: check 'Expected number of intersections is 1013' has passed
+Checking size of valid rectangle array from file example.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(62): info: check 'Expected size is 4' has passed
+Checking intersections from file example.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(69): info: check 'Expected number of intersections is 7' has passed
+c:\users\ozgur\source\repos\nitro_test\nitro_test\unittest.cpp(39): Leaving test case "IntersectionTest"; testing time: 1927ms
+c:\users\ozgur\source\repos\nitro_test\nitro_test\unittest.cpp(77): Entering test case "FileIntegrityTest"
+Checking error messages from empty.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(100): info: check 'Expected message is  "parse error - unexpected end of input"' has passed
+Checking error messages from exceeding_digits.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(100): info: check 'Expected message is  "Rectangle 1 does not contain integer x value."' has passed
+Checking error messages from float.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(100): info: check 'Expected message is  "Rectangle 1 does not contain integer x value."' has passed
+Checking error messages from negative_height.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(100): info: check 'Expected message is  "Rectangle 4 contains non positive height."' has passed
+Checking error messages from negative_width.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(100): info: check 'Expected message is  "Rectangle 4 contains non positive width."' has passed
+Checking error messages from string.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(100): info: check 'Expected message is  "Rectangle 1 does not contain integer x value."' has passed
+Checking error messages from text.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(100): info: check 'Expected message is  "parse error - unexpected 'a'"' has passed
+Checking error messages from wrong_array_name.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(100): info: check 'Expected message is  "Cannot find rects array."' has passed
+Checking error messages from zero_height.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(100): info: check 'Expected message is  "Rectangle 4 contains non positive height."' has passed
+Checking error messages from zero_width.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(100): info: check 'Expected message is  "Rectangle 2 contains non positive width."' has passed
+Checking error messages from zero_width.json
+c:/users/ozgur/source/repos/nitro_test/nitro_test/unittest.cpp(100): info: check 'Expected message is  "Rectangle 2 contains non positive width."' has passed
+c:\users\ozgur\source\repos\nitro_test\nitro_test\unittest.cpp(77): Leaving test case "FileIntegrityTest"; testing time: 1882ms
+c:\users\ozgur\source\repos\nitro_test\nitro_test\unittest.cpp(37): Leaving test suite "NitroTest"; testing time: 3809ms
+Leaving test module "JsonReaderTest"; testing time: 3809ms

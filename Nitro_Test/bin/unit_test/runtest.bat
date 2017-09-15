@@ -1,0 +1,1 @@
+Nitro_Test --log_level=all
